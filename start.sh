@@ -1,0 +1,8 @@
+#!/bin/bash
+STARTUP_CMD1="$STARTUP_CMD1"
+STARTUP_CMD2="$STARTUP_CMD2"
+
+eval "${STARTUP_CMD1}"
+
+if [ -n "$STARTUP_CMD2" ]; then
+    eval "${STARTUP_CMD2}"
